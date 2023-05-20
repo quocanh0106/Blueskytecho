@@ -1,79 +1,80 @@
 @font-face {
   font-family: 'General Sans';
   src: url('../fonts/GeneralSans-Extralight.woff2') format('woff2'),
-       url('../fonts/GeneralSans-Extralight.woff') format('woff'),
-       url('../fonts/GeneralSans-Extralight.ttf') format('truetype');
-       font-weight: 200;
-       font-display: swap;
-       font-style: normal;
+    url('../fonts/GeneralSans-Extralight.woff') format('woff'),
+    url('../fonts/GeneralSans-Extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
 }
 
 
 @font-face {
   font-family: 'General Sans';
   src: url('../fonts/GeneralSans-Light.woff2') format('woff2'),
-       url('../fonts/GeneralSans-Light.woff') format('woff'),
-       url('../fonts/GeneralSans-Light.ttf') format('truetype');
-       font-weight: 300;
-       font-display: swap;
-       font-style: normal;
+    url('../fonts/GeneralSans-Light.woff') format('woff'),
+    url('../fonts/GeneralSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'General Sans';
   src: url('../fonts/GeneralSans-Regular.woff2') format('woff2'),
-       url('../fonts/GeneralSans-Regular.woff') format('woff'),
-       url('../fonts/GeneralSans-Regular.ttf') format('truetype');
-       font-weight: 400;
-       font-display: swap;
-       font-style: normal;
+    url('../fonts/GeneralSans-Regular.woff') format('woff'),
+    url('../fonts/GeneralSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
 
 
 @font-face {
   font-family: 'General Sans';
   src: url('../fonts/GeneralSans-Medium.woff2') format('woff2'),
-       url('../fonts/GeneralSans-Medium.woff') format('woff'),
-       url('../fonts/GeneralSans-Medium.ttf') format('truetype');
-       font-weight: 500;
-       font-display: swap;
-       font-style: normal;
+    url('../fonts/GeneralSans-Medium.woff') format('woff'),
+    url('../fonts/GeneralSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
 }
 
 
 @font-face {
   font-family: 'General Sans';
   src: url('../fonts/GeneralSans-Semibold.woff2') format('woff2'),
-       url('../fonts/GeneralSans-Semibold.woff') format('woff'),
-       url('../fonts/GeneralSans-Semibold.ttf') format('truetype');
-       font-weight: 600;
-       font-display: swap;
-       font-style: normal;
+    url('../fonts/GeneralSans-Semibold.woff') format('woff'),
+    url('../fonts/GeneralSans-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'General Sans';
   src: url('../fonts/GeneralSans-Bold.woff2') format('woff2'),
-       url('../fonts/GeneralSans-Bold.woff') format('woff'),
-       url('../fonts/GeneralSans-Bold.ttf') format('truetype');
-       font-weight: 700;
-       font-display: swap;
-       font-style: normal;
+    url('../fonts/GeneralSans-Bold.woff') format('woff'),
+    url('../fonts/GeneralSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'theme-icon';
-  src:  url('../fonts/theme-icon.eot?g23fs9');
-  src:  url('../fonts/theme-icon.eot?g23fs9#iefix') format('embedded-opentype'),
-    url('../fonts/theme-icon.ttf?g23fs9') format('truetype'),
-    url('../fonts/theme-icon.woff?g23fs9') format('woff'),
-    url('../fonts/theme-icon.svg?g23fs9#theme-icon') format('svg');
+  src: url('../fonts/theme-icon.eot?c7gxfg');
+  src: url('../fonts/theme-icon.eot?c7gxfg#iefix') format('embedded-opentype'),
+    url('../fonts/theme-icon.ttf?c7gxfg') format('truetype'),
+    url('../fonts/theme-icon.woff?c7gxfg') format('woff'),
+    url('../fonts/theme-icon.svg?c7gxfg#theme-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'theme-icon' !important;
   speak: never;
@@ -91,60 +92,83 @@
 .icon-box:before {
   content: "\e911";
 }
+
 .icon-checkmark:before {
   content: "\e912";
 }
+
 .icon-message:before {
   content: "\e913";
 }
+
 .icon-twitter:before {
   content: "\e900";
 }
+
 .icon-facebook:before {
   content: "\e901";
 }
+
 .icon-instagram:before {
   content: "\e902";
 }
+
 .icon-youtube:before {
   content: "\e906";
 }
+
 .icon-tiktok:before {
   content: "\e907";
 }
+
 .icon-pinterest:before {
   content: "\e908";
 }
+
 .icon-snapchat:before {
   content: "\e909";
 }
+
 .icon-bag:before {
   content: "\e903";
 }
+
 .icon-cart:before {
   content: "\e904";
 }
+
 .icon-chevron-down:before {
   content: "\e905";
 }
+
 .icon-chevron-left:before {
   content: "\e90a";
 }
+
 .icon-chevron-right:before {
   content: "\e90b";
 }
+
 .icon-clock:before {
   content: "\e90c";
 }
+
 .icon-heart:before {
   content: "\e90d";
 }
+
 .icon-login:before {
   content: "\e90e";
 }
+
 .icon-search:before {
   content: "\e90f";
 }
+
 .icon-star:before {
   content: "\e910";
+}
+
+.icon-menu:before {
+  content: "\e9bd";
 }
