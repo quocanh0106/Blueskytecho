@@ -12,9 +12,4 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-next',
     prevEl: '.swiper-prev',
   },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
 });
