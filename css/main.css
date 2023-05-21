@@ -32,6 +32,7 @@ select {
   appearance: none;
   background: transparent url('../img/icon-chevron-down.svg') no-repeat right 0 center;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 body,
@@ -86,6 +87,7 @@ h4 a,
 h5 a,
 h6 a {
   color: inherit;
+  font-size: inherit;
   text-decoration: none;
   font-weight: inherit;
   letter-spacing: 0;
@@ -121,7 +123,7 @@ ol {
 
 /*================ Buttons ================*/
 
-button {
+button, .btn, .btn-2 {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
@@ -282,6 +284,7 @@ select::-ms-input-placeholder {
   font-size: 13px;
   line-height: 1.35;
   max-width: 153px;
+  border-radius: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -963,6 +966,10 @@ header {
 .instagram__list__item img {
   display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+.instagram__list__item img:hover {
+  transform: scale(1.1);
 }
 
 .instagram__list__item__infor {
