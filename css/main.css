@@ -1128,7 +1128,6 @@ footer {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  background: transparent;
 }
 
 @media (min-width: 1024px) {
