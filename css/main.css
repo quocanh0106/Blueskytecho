@@ -439,7 +439,7 @@ header {
     transform: translateX(0);
     width: fit-content;
     height: fit-content;
-
+    padding: 0px;
   }
 
   .header-wrapper .header-icons {
