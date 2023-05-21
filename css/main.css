@@ -1117,17 +1117,17 @@ footer {
 
 .copyright__col__form {
   display: flex;
+  column-gap: 20px;
 }
 
 .copyright__col__form select {
   border: none;
-  color: var(--color-heading);
+  color: var(--color-text);
   font-size: 13px;
   line-height: 1.35;
   max-width: 153px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  border-radius: 0;
+  background: #F5F5F5 url(../img/icon-chevron-down.svg) no-repeat right 0 center;
 }
 
 @media (min-width: 1024px) {
