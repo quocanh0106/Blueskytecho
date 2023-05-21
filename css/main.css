@@ -30,7 +30,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: var(--color-background) url('../img/icon-chevron-down.svg') no-repeat right 19px center;
+  background: var(--color-background) url('../img/icon-chevron-down.svg') no-repeat right 0 center;
   padding-right: 20px;
 }
 
